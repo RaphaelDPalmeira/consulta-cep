@@ -1,0 +1,40 @@
+body {
+    background-image: linear-gradient(to right, #489FB5, #82C0CC);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+form {
+    font-family: 'Poppins', sans-serif;
+    color: rgb(255, 255, 255);
+    border: 2px solid #EDE7E3;
+    padding: 0.75em;
+    max-width: 400px;
+    width: 400px;
+    border-radius: 10px;
+}
+
+.title {
+    text-align: center;
+    color: #041e24;
+    font-size: 1.5em;
+}
+
+.form-control {
+    opacity: 0.99;
+}
+
+label {
+    margin-top: 0.75em;
+}
+
+#erro {
+    color: rgb(201, 19, 19);
+    margin-bottom: 0;
+    font-size: 1em;
+}
